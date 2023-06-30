@@ -70,7 +70,7 @@ const handleSubmit = async (e) => {
   const messageDiv = document.getElementById(uniqueId);
   loader(messageDiv);
 
-  const response = await fetch('http://localhost:5001', {
+  const response = await fetch('https://thing-ab7y.onrender.com', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
